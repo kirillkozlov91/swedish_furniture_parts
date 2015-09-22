@@ -13,6 +13,6 @@ After do |scenario|
     @browser.save_screenshot(screenshot_file)
     embed("#{screenshot_file}", 'image/png')
   end
-
+  @proxy.close
   @browser.quit
 end

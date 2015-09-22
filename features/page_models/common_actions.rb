@@ -9,7 +9,7 @@ class CommonActions
   end
 
   def build_url
-    self.path.gsub!("www.swedishfurnitureparts.com", get_environment)
+    self.path
   end
 
 end

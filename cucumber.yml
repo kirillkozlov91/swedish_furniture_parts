@@ -1,4 +1,5 @@
-all_tests: --tags @home_page,@search_page,@checkout --format html --out report.html --format pretty
+all_tests: --tags @home_page,@search_page,@checkout,@header --format html --out report.html --format pretty
 home_page: --tags @home_page --format html --out report.html --format pretty
 search_page: --tags @search_page --format html --out report.html --format pretty
 checkout: --tags @checkout --format html --out report.html --format pretty
+header: --tags @header --format html --out report.html --format pretty
