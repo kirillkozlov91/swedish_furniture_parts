@@ -1,18 +1,18 @@
-swedish_furniture_parts project
+swedish_furniture_parts project <br />
 
-If you don't have cucumber and bundler, please run in Terminal following commands:
-sudo gem install cucumber
-sudo gem install bundler
+**If you don't have cucumber and bundler, please run in Terminal following commands:** <br />
+sudo gem install cucumber <br />
+sudo gem install bundler <br />
 
-In Terminal cd to main project folder (where project was downloaded to your machine)
+**In Terminal cd to main project folder** (where project was downloaded to your machine) <br />
 
-From main project folder (swedish_furniture_parts) run following commands:
-bundle install
-cucumber -p all_tests
+**From main project folder (swedish_furniture_parts) run following commands:** <br />
+bundle install <br />
+cucumber -p all_tests <br />
 
-List of existing profiles:
-cucumber -p all_tests
-cucumber -p home_page
-cucumber -p header
-cucumber -p search_page
-cucumber -p checkout
+**List of existing profiles:** <br />
+cucumber -p all_tests <br />
+cucumber -p home_page <br />
+cucumber -p header <br />
+cucumber -p search_page <br />
+cucumber -p checkout <br />
