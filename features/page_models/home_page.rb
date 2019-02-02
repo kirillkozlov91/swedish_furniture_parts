@@ -1,7 +1,7 @@
 class HomePage < CommonActions
 
   def path
-    "http://www.swedishfurnitureparts.com"
+    "https://www.swedishfurnitureparts.com"
   end
 
   def session_cookie

@@ -6,7 +6,6 @@ And(/^I enter search query "([^"]*)" and click search$/) do |search_query|
 end
 
 Then(/^I am getting exactly one result$/) do
+  expect(sfp.search_results_page.search_results_text).to be == "1 result found"
   expect(sfp.search_results_page.search_result_103114.displayed?) == true
-  expect(sfp.search_results_page.search_results_table.size).to be == 1
 end
-

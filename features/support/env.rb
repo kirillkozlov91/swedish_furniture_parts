@@ -2,6 +2,7 @@ require "selenium/webdriver"
 require 'browsermob/proxy'
 require "rspec"
 require "pry"
+require "geckodriver/helper"
 
 require_relative "../page_models/common_actions.rb"
 Dir["../page_models/*.rb"].each {|file| require file}
