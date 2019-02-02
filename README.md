@@ -1,12 +1,11 @@
-swedish_furniture_parts project <br />
+**Prerequisites:** <br />
+Ruby and Firefox installed on your system
 
 **If you don't have cucumber and bundler, please run in Terminal following commands:** <br />
 ```sh
 sudo gem install cucumber
 sudo gem install -n /usr/local/bin bundler
 ```
-
-**In Terminal cd to main project folder** (where project was downloaded to your machine) <br />
 
 **From main project folder (swedish_furniture_parts) run following commands:** <br />
 ```sh
