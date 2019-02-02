@@ -1,4 +1,4 @@
-require "selenium-webdriver"
+require "selenium/webdriver"
 require 'browsermob/proxy'
 require "rspec"
 require "pry"
