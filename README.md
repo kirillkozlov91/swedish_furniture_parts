@@ -1,7 +1,7 @@
 **Prerequisites:** <br />
 Ruby and Firefox installed on your system
 
-**If you don't have cucumber and bundler, please run in Terminal following commands:** <br />
+**If you don't have cucumber and bundler gems, please run following commands in Terminal:** <br />
 ```sh
 sudo gem install cucumber
 sudo gem install -n /usr/local/bin bundler
