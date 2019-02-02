@@ -1,5 +1,6 @@
 **Prerequisites:** <br />
-Ruby and Firefox installed on your system
+Ruby, JDK and Firefox are installed on your system. <br />
+`$JAVA_HOME` path is configured
 
 **If you don't have cucumber and bundler gems, please run following commands in Terminal:** <br />
 ```sh
